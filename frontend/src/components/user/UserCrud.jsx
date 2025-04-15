@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import axios from 'axios'
 import Main from "../template/Main";
 
 const headerProps = {
@@ -7,6 +8,10 @@ const headerProps = {
     subtitle: 'Cadastro de usuários: Incluir, Listar, Alterar e Excluir'
   }
   
+
+  const baseUrl =''
+
+
   export default class UserCrud extends Component {
     render() {
       return (
