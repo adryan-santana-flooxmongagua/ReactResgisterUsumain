@@ -7,7 +7,7 @@ export default props =>
         <Header {...props} />
         <main className='content container-fluid'>
             <div className="p-3_mt-3">
-                {props.chuldren}
+                {props.children}
             </div>
         </main>
     </React.Fragment>
